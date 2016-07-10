@@ -4,9 +4,15 @@ Tasks to be finished:
 - [ ] Intel Compiler
 - [ ] google chrome
 - [ ] texlive
+- [ ] Emacs
 - [ ] vim
 - [ ] bash
 - [ ] tmux
 - [ ] pkuipgw
 - [ ] key remap
+- [ ] htop
+- [ ] shadowsocks5
+- [ ] Inkscape
+- [ ] GIMP
+- [ ] Sage
 
