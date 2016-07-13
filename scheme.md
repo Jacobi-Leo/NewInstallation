@@ -16,4 +16,6 @@ Tasks to be finished:
 - [ ] GIMP
 - [ ] Sage
 - [ ] k2pdfopt
+- [ ] Markdown symbolic link
+- 
 
