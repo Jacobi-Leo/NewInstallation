@@ -15,4 +15,5 @@ Tasks to be finished:
 - [ ] Inkscape
 - [ ] GIMP
 - [ ] Sage
+- [ ] k2pdfopt
 
