@@ -17,5 +17,4 @@ Tasks to be finished:
 - [ ] Sage
 - [ ] k2pdfopt
 - [ ] Markdown symbolic link
-- 
 
