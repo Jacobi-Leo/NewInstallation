@@ -81,21 +81,21 @@ Git, since definitely I will not use password to pull and push my commits.
 
 ** A Checklist
 
-- [ ] Mathematica
-- [ ] Intel Compiler
-- [ ] PGI Compiler
-- [ ] google chrome
-- [ ] texlive
-- [ ] Emacs
-- [ ] vim
-- [ ] bash
-- [ ] tmux
-- [ ] pkuipgw
-- [ ] key remap
-- [ ] htop
-- [ ] shadowsocks5
-- [ ] Inkscape
-- [ ] GIMP
-- [ ] Sage
-- [ ] k2pdfopt
-- [ ] Markdown symbolic link
+- Mathematica
+- Intel Compiler
+- PGI Compiler
+- google chrome
+- texlive
+- Emacs
+- vim
+- bash
+- tmux
+- pkuipgw
+- key remap
+- htop
+- shadowsocks5
+- Inkscape
+- GIMP
+- Sage
+- k2pdfopt
+- Markdown symbolic link
