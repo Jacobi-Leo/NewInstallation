@@ -25,6 +25,10 @@ is essential to connect to the Internet, so back up the configuration file
 
 * During the Installation
 
+Most modern distribution of Linux has well designed installer, so installing Linux
+is not a hard task. There is only one thing to remember: keep everything as simple
+as possible during installation, and leave the tuning task later.
+
 * Post-installation
 
 ** Install the fonts and input method
@@ -35,7 +39,7 @@ enviroment and ease of googling.
 
 #+BEGIN_SRC
 zypper install wqy-* arphic-* adobe-*
-zypper install fcitx fcitx-google-pinyin fcitx-table-latex
+zypper install fcitx fcitx-google-pinyin fcitx-table-latex fcitx-cloudpinyin
 #+END_SRC
 
 ** Install the browser
@@ -71,6 +75,26 @@ I will also rely heavily on spacemacs, so I need to compile the latest Emacs
 from source code.
 
 ** Set up SSH
+
 SSH is what identify myself on the Internet, and is of vital importance in using
 Git, since definitely I will not use password to pull and push my commits.
 
+** A Checklist
+
+- [ ] Mathematica
+- [ ] Intel Compiler
+- [ ] google chrome
+- [ ] texlive
+- [ ] Emacs
+- [ ] vim
+- [ ] bash
+- [ ] tmux
+- [ ] pkuipgw
+- [ ] key remap
+- [ ] htop
+- [ ] shadowsocks5
+- [ ] Inkscape
+- [ ] GIMP
+- [ ] Sage
+- [ ] k2pdfopt
+- [ ] Markdown symbolic link
