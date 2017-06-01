@@ -1,0 +1,76 @@
+#+AUTHOR: Jacob Zeyu LIU
+
+* Pre-installation
+
+** Building a live USB disk
+
+** Back up data
+There is list of personal data to back up:
+- ssh key and gpg key
+- files related to daily work
+- personal storage like music and photos
+- configuration files
+- installed programs in /usr/local
+
+** Network affairs
+
+As I am now in mainland China, accessing the Internet is quite hard. Thanks to
+the IPv6 in CERNET and Google Chrome with "https everywhere" plugin. So back up
+a google-chrome package and a working hosts file with IPv6 addresses somewhere
+safe.
+
+If IPv6 is not available, then [[https://www.shadowsocks.com.hk][shadowsocks]]
+is essential to connect to the Internet, so back up the configuration file
+(browser configuration file and shell script).
+
+* During the Installation
+
+* Post-installation
+
+** Install the fonts and input method
+
+Though it seems wired to mention fonts and input method first, but I do
+recommend install fonts and input methods first, both for beauty of your working
+enviroment and ease of googling.
+
+#+BEGIN_SRC
+zypper install wqy-* arphic-* adobe-*
+zypper install fcitx fcitx-google-pinyin fcitx-table-latex
+#+END_SRC
+
+** Install the browser
+
+This looks reasonalbe. Install Google Chrome with the back up install package,
+connect to the Internet with IPv6 hosts or shadowsocks.
+
+If in the case of shadowsocks, python enviroment is required. Since it is
+maintained by the installer of openSUSE, we just type the following command.
+
+#+BEGIN_SRC
+pip install shadowsocks
+zypper install proxychains
+#+END_SRC
+
+Then modify the last line of proxychain configuration file as following.
+
+#+BEGIN_SRC
+socks5  127.0.0.1  1080
+#+END_SRC
+
+** Install the editor and tmux
+
+Emacs and Vim are both my editors, so I will install them all. Tmux is critical
+in terminal efficiency. Since I will use powerline in tmux, I need to install
+powerline first.
+
+#+BEGIN_SRC
+pip install powerline-status
+#+END_SRC
+
+I will also rely heavily on spacemacs, so I need to compile the latest Emacs
+from source code.
+
+** Set up SSH
+SSH is what identify myself on the Internet, and is of vital importance in using
+Git, since definitely I will not use password to pull and push my commits.
+
