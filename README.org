@@ -27,7 +27,7 @@ is essential to connect to the Internet, so back up the configuration file
 
 Most modern distribution of Linux has well designed installer, so installing Linux
 is not a hard task. There is only one thing to remember: keep everything as simple
-as possible during installation, and Network affairsleavNetwork affairse the tuning task later.
+as possible during installation, and leave the tuning task later.
 
 * Post-installation
 
