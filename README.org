@@ -84,11 +84,12 @@ Git, since definitely I will not use password to pull and push my commits.
 - Mathematica
 - Intel Compiler
 - PGI Compiler
-- google chrome
+- vivaldi
 - texlive
 - Emacs
 - vim
 - bash
+- oh-my-zsh
 - tmux
 - pkuipgw
 - key remap
