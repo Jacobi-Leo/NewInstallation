@@ -72,7 +72,14 @@ pip install powerline-status
 #+END_SRC
 
 I will also rely heavily on spacemacs, so I need to compile the latest Emacs
-from source code.
+from source code. Since the MELPA is rolling updated, so latest version of Emacs
+is essential, or some packages might not run properly. I have suffered from
+deprecated packages so much, and after installing the latest version of Emacs and
+running
+#+BEGIN_SRC 
+rm ~/.emacs.d/cache -rf
+#+END_SRC
+to remove all the old cache, everything is OK.
 
 ** Set up SSH
 
