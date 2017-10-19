@@ -29,6 +29,8 @@ Most modern distribution of Linux has well designed installer, so installing Lin
 is not a hard task. There is only one thing to remember: keep everything as simple
 as possible during installation, and leave the tuning task later.
 
+如果网络不好的话，下载中途断网了，对于安装系统非常不利！
+
 * Post-installation
 
 ** Install the fonts and input method
@@ -109,5 +111,3 @@ Git, since definitely I will not use password to pull and push my commits.
 - Sage
 - k2pdfopt
 - Markdown symbolic link
-
-
