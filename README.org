@@ -66,6 +66,12 @@ pip install shadowsocks
 zypper install proxychains
 #+END_SRC
 
+Or in linuxmint:
+
+#+BEGIN_SRC
+apt install shadowsocks shadowsocks-libev proxychains
+#+END_SRC
+
 Then modify the last line of proxychain configuration file as following.
 
 #+BEGIN_SRC
