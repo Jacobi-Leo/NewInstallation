@@ -48,6 +48,9 @@ In linuxmint, things get easier. Just install the Chinese language pack. And
 the input method is added similarly in linuxmint. Always remember to add the
 Rime input method by install `fcitx-rime` or `ibus-rime`.
 
+Actually the best Chinese input method is Rime. The proper font should be
+`msttcorefonts`.
+
 现在，可以输入中文了！
 
 ** Install the browser
