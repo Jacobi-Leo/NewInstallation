@@ -51,6 +51,10 @@ Rime input method by install `fcitx-rime` or `ibus-rime`.
 Actually the best Chinese input method is Rime. The proper font should be
 `msttcorefonts`.
 
+VERY IMPORTANT!! DON'T use arphic fonts, since they are not complete set of
+CJK characters. Using arphic fonts leads to a mixture of Hei and Kai text,
+which is a mess.
+
 现在，可以输入中文了！
 
 ** Install the browser
